@@ -1,0 +1,30 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.login-container h2 {
+    color: #00796b;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-container p {
+    color: #004d40;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.login-container p:nth-child(3) {
+    font-style: italic;
+}

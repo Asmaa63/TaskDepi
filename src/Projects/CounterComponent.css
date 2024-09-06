@@ -1,0 +1,27 @@
+.ContainerCounter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    border-radius: 25px;
+    padding: 5px 1px;
+    width: 150px;
+}
+
+.ContainerCounter button {
+    font-size: 20px;
+    padding: 5px 12px;
+    margin: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: yellow;
+    color: black;
+}
+
+.ContainerCounter span {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #5a2d82;
+}
